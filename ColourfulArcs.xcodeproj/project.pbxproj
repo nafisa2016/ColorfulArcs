@@ -14,6 +14,7 @@
 		7882BEB61E7B9497009080EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7882BEB41E7B9497009080EA /* LaunchScreen.storyboard */; };
 		7882BEC11E7B9497009080EA /* ColourfulArcsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BEC01E7B9497009080EA /* ColourfulArcsTests.swift */; };
 		7882BECC1E7B9497009080EA /* ColourfulArcsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BECB1E7B9497009080EA /* ColourfulArcsUITests.swift */; };
+		7882BEDA1E7B94D2009080EA /* ColorfulArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BED91E7B94D2009080EA /* ColorfulArcView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7882BEC71E7B9497009080EA /* ColourfulArcsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColourfulArcsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7882BECB1E7B9497009080EA /* ColourfulArcsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourfulArcsUITests.swift; sourceTree = "<group>"; };
 		7882BECD1E7B9497009080EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7882BED91E7B94D2009080EA /* ColorfulArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorfulArcView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7882BEAB1E7B9497009080EA /* AppDelegate.swift */,
 				7882BEAD1E7B9497009080EA /* ViewController.swift */,
 				7882BEAF1E7B9497009080EA /* Main.storyboard */,
+				7882BED91E7B94D2009080EA /* ColorfulArcView.swift */,
 				7882BEB21E7B9497009080EA /* Assets.xcassets */,
 				7882BEB41E7B9497009080EA /* LaunchScreen.storyboard */,
 				7882BEB71E7B9497009080EA /* Info.plist */,
@@ -193,7 +196,6 @@
 				TargetAttributes = {
 					7882BEA71E7B9497009080EA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42KMS8LBB5;
 						ProvisioningStyle = Automatic;
 					};
 					7882BEBB1E7B9497009080EA = {
@@ -262,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7882BEDA1E7B94D2009080EA /* ColorfulArcView.swift in Sources */,
 				7882BEAE1E7B9497009080EA /* ViewController.swift in Sources */,
 				7882BEAC1E7B9497009080EA /* AppDelegate.swift in Sources */,
 			);
@@ -415,7 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ColourfulArcs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ColourfulArcs;
@@ -428,7 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ColourfulArcs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ColourfulArcs;
